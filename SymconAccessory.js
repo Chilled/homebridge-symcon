@@ -15,6 +15,7 @@ function SymconAccessory(log, rpcClientOptions, hapService, hapCharacteristic, i
 	this.instance = instance;
 	this.instanceConfig = instanceConfig;
 	this.services = services;
+	this.reachable = true;
 }
 
 module.exports = SymconAccessory;
